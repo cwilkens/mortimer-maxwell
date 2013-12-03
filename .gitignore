@@ -6,6 +6,9 @@
 *.user
 *.sln.docstates
 
+# backup files
+*.old
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

@@ -1,4 +1,6 @@
-#include <windows.h>	// WinApi header
+#ifdef _WIN32
+  #include <windows.h>	// WinApi header
+#endif
 #include <iostream>		// cout and cin
 #include <string>
 #include "Framerate.h"
