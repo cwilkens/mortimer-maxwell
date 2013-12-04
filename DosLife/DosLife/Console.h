@@ -3,6 +3,10 @@
 
 #ifdef _WIN32
   #include <windows.h>
+#elif defined __linux__
+  #include <xcb/xcb.h>
+#else
+  #error "unknown platform"
 #endif
 #include <vector>
 

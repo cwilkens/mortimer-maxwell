@@ -1,5 +1,5 @@
 all: main.o
-	g++ -o mortimer main.o
+	g++ -Wall -o mortimer main.o -lxcb
 
 main.o: main.cpp
 	g++ -c main.cpp
