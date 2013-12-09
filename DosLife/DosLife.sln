@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C++ Express 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mortimer Maxwell", "DosLife\DosLife.vcxproj", "{C4360A85-75A4-4D71-BF6E-9F34177E4001}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MortimerMaxwell", "MortimerMaxwell\MortimerMaxwell.vcxproj", "{08225FA8-9634-4682-8FAD-A2E3FF2723D9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LevelEditor", "LevelEditor\LevelEditor.vcxproj", "{3F9F762F-A168-4FD6-B8D8-F007B5DECF97}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageEditor", "ImageEditor\ImageEditor.vcxproj", "{99F2B947-6B9B-426E-BE72-20E192CF3C07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C4360A85-75A4-4D71-BF6E-9F34177E4001}.Debug|Win32.ActiveCfg = Debug|Win32
-		{C4360A85-75A4-4D71-BF6E-9F34177E4001}.Debug|Win32.Build.0 = Debug|Win32
-		{C4360A85-75A4-4D71-BF6E-9F34177E4001}.Release|Win32.ActiveCfg = Release|Win32
-		{C4360A85-75A4-4D71-BF6E-9F34177E4001}.Release|Win32.Build.0 = Release|Win32
+		{08225FA8-9634-4682-8FAD-A2E3FF2723D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{08225FA8-9634-4682-8FAD-A2E3FF2723D9}.Debug|Win32.Build.0 = Debug|Win32
+		{08225FA8-9634-4682-8FAD-A2E3FF2723D9}.Release|Win32.ActiveCfg = Release|Win32
+		{08225FA8-9634-4682-8FAD-A2E3FF2723D9}.Release|Win32.Build.0 = Release|Win32
+		{3F9F762F-A168-4FD6-B8D8-F007B5DECF97}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F9F762F-A168-4FD6-B8D8-F007B5DECF97}.Debug|Win32.Build.0 = Debug|Win32
+		{3F9F762F-A168-4FD6-B8D8-F007B5DECF97}.Release|Win32.ActiveCfg = Release|Win32
+		{3F9F762F-A168-4FD6-B8D8-F007B5DECF97}.Release|Win32.Build.0 = Release|Win32
+		{99F2B947-6B9B-426E-BE72-20E192CF3C07}.Debug|Win32.ActiveCfg = Debug|Win32
+		{99F2B947-6B9B-426E-BE72-20E192CF3C07}.Debug|Win32.Build.0 = Debug|Win32
+		{99F2B947-6B9B-426E-BE72-20E192CF3C07}.Release|Win32.ActiveCfg = Release|Win32
+		{99F2B947-6B9B-426E-BE72-20E192CF3C07}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
