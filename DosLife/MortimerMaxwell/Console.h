@@ -1,7 +1,13 @@
 // the header for the Console class
 // the console class handles input and output to and from the console
 
-#include <windows.h>
+#ifdef _WIN32
+  #include <windows.h>
+#elif defined __linux__
+  #include <xcb/xcb.h>
+#else
+  #error "unknown platform"
+#endif
 #include <vector>
 
 #ifndef CONSOLE_H
